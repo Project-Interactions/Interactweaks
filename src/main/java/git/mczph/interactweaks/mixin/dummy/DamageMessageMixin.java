@@ -1,6 +1,6 @@
 /*
-Code from RLMixins by fonnymunkey under MIT
-https://github.com/fonnymunkey/RLMixins/blob/main/src/main/java/rlmixins/mixin/dummy/RenderFloatingNumberMixin.java
+Code from RLMixins by "questionable" fonnymunkey under MIT
+https://github.com/fonnymunkey/RLMixins/blob/main/src/main/java/rlmixins/mixin/dummy/DamageMessageMixin.java
  */
 package git.mczph.interactweaks.mixin.dummy;
 
