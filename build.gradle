@@ -116,6 +116,8 @@ dependencies {
     implementation rfg.deobf("curse.maven:flux-networks-248020:3178199")
     implementation rfg.deobf("curse.maven:tinkers-construct-74072:2902483")
     implementation rfg.deobf("curse.maven:constructs-armory-287683:3174535")
+    implementation rfg.deobf("curse.maven:qmd-362056:4975576")
+
 
     if (project.use_mixins.toBoolean()) {
         // Change your mixin refmap name here:

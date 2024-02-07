@@ -18,7 +18,8 @@ public class LateMixinInit implements ILateMixinLoader {
                 "mixins.interactweaks.exu2.json",
                 "mixins.interactweaks.buildinggadgets.json",
                 "mixins.interactweaks.conarm.json",
-                "mixins.interactweaks.tconstruct.json"
+                "mixins.interactweaks.tconstruct.json",
+                "mixins.interactweaks.qmd.json"
         );
     }
 }
