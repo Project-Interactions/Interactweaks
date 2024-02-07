@@ -1,5 +1,5 @@
 /*
-Code from DivineJourney2Addons by ByThePowerOfScience
+Code from DivineJourney2Addons by ByThePowerOfScience under MIT
 https://github.com/ByThePowerOfScience/DivineJourney2Addons/blob/master/mod/src/main/java/btpos/dj2addons/api/mixin/bloodmagic/MTileSoulForge.java
  */
 package git.mczph.interactweaks.mixin.bloodmagic;
