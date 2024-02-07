@@ -43,7 +43,7 @@ minecraft {
     mcpMappingVersion = '39'
     
     // Set username here, the UUID will be looked up automatically
-    username = 'Developer'
+    username = 'mczph'
     
     // Add any additional tweaker classes here
     // extraTweakClasses.add('org.spongepowered.asm.launch.MixinTweaker')
@@ -104,7 +104,18 @@ dependencies {
     }
 
     // Example of deobfuscating a dependency
-    // implementation rfg.deobf('curse.maven:had-enough-items-557549:4543375')
+    implementation rfg.deobf('curse.maven:had-enough-items-557549:4543375')
+    implementation rfg.deobf('curse.maven:lightningcraft-237422:2872478')
+    implementation rfg.deobf("curse.maven:nuclearcraft-overhauled-336895:3862197")
+    implementation rfg.deobf("curse.maven:mekanism-unofficial-edition-v10-edition-840735:4464199")
+    implementation rfg.deobf("curse.maven:mmmmmmmmmmmm-225738:2503041")
+    implementation rfg.deobf("curse.maven:blood-magic-224791:2822288")
+    implementation rfg.deobf("curse.maven:building-gadgets-298187:3005950")
+    implementation rfg.deobf("curse.maven:jeitf-303122:2919936")
+    implementation rfg.deobf("curse.maven:extra-utilities-225561:2678374")
+    implementation rfg.deobf("curse.maven:flux-networks-248020:3178199")
+    implementation rfg.deobf("curse.maven:tinkers-construct-74072:2902483")
+    implementation rfg.deobf("curse.maven:constructs-armory-287683:3174535")
 
     if (project.use_mixins.toBoolean()) {
         // Change your mixin refmap name here:
