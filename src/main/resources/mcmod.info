@@ -1,16 +1,12 @@
 [
-{
-  "modid": "interactweaks",
-  "name": "Interactweaks",
-  "description": "Tweaks mod for modpack Interactions",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
-  "url": "https://www.curseforge.com/minecraft/mc-mods/interactweaks",
-  "updateUrl": "",
-  "authorList": ["mczph"],
-  "credits": "Authors of this project",
-  "logoFile": "",
-  "screenshots": [],
-  "dependencies": []
-}
+  {
+    "modid": "interactweaks",
+    "name": "Interactweaks",
+    "description": "Tweaks mod for modpack Interactions",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "https://www.curseforge.com/minecraft/mc-mods/interactweaks",
+    "authorList": ["mczph"],
+    "logoFile": "logo.png"
+  }
 ]

@@ -3,7 +3,7 @@ package git.mczph.interactweaks.mixin.qmd;
 import lach_01298.qmd.recipe.QMDRecipeHelper;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
-import zone.rong.mixinextras.injector.ModifyReturnValue;
+import com.llamalad7.mixinextras.injector.ModifyReturnValue;
 
 
 @Mixin(value=QMDRecipeHelper.class, remap = false)

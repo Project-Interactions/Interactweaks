@@ -9,14 +9,15 @@ import net.minecraftforge.fml.common.event.*;
         modid = git.mczph.interactweaks.Interactweaks.MODID,
         name = git.mczph.interactweaks.Interactweaks.NAME,
         version = git.mczph.interactweaks.Interactweaks.VERSION,
-        dependencies = git.mczph.interactweaks.Interactweaks.dependencies
+        acceptedMinecraftVersions = "[1.12.2]",
+        dependencies = git.mczph.interactweaks.Interactweaks.DEPENDENCIES
 )
 
 public class Interactweaks {
-    public static final String MODID = "interactweaks";
-    public static final String NAME = "Interactweaks";
-    public static final String VERSION = "1.0.0";
-    public static final String dependencies = "required-after:lightningcraft";
+    public static final String MODID = Tags.MOD_ID;
+    public static final String NAME = Tags.MOD_NAME;
+    public static final String VERSION = Tags.VERSION;
+    public static final String DEPENDENCIES = "required-after:mixinbooter@[8.0,);required-after:lightningcraft";
 
     public static final String COMMON_PROXY = "git.mczph.interactweaks.common.CommonProxy";
     public static final String CLIENT_PROXY = "git.mczph.interactweaks.client.ClientProxy";

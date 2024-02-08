@@ -17,7 +17,7 @@ public abstract class RenderFloatingNumberMixin {
             constant = @Constant(floatValue = 2.0F),
             remap = false
     )
-    private static float dummyDoRender_constant(float constant) {
+    private float dummyDoRender_constant(float constant) {
         return 1.0F;
     }
 }
